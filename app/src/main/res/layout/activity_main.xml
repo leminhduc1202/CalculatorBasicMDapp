@@ -25,7 +25,7 @@
             android:gravity="end"
             android:textSize="30sp"
             android:textColor="@color/white"
-            tools:text="5+10-3" />
+            tools:text="142857+10-7" />
 
         <TextView
             android:id="@+id/output"
@@ -34,7 +34,7 @@
             android:gravity="end"
             android:textSize="50sp"
             android:textColor="@color/green"
-            tools:text="12" />
+            tools:text="142860" />
 
     </LinearLayout>
     <TableLayout
