@@ -75,13 +75,18 @@ class MainActivity : AppCompatActivity() {
         binding.buttonEquals.setOnClickListener {
             showResult()
         }
+        binding.backSpace.setOnClickListener {
+            clearInputText()
+        }
     }
 
+    //Replace * and /
     private  fun getInputExpression(): String {
         var expression = binding.input.text.replace(Regex("÷"),"/")
         expression = expression.replace(Regex("×"),"*")
         return expression
     }
+    //Show calculator result
     private fun showResult() {
         try {
             val expression = getInputExpression()
@@ -99,7 +104,17 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //Add input function
     private fun addToInputText(buttonValue: String): String {
         return "${binding.input.text}$buttonValue"
+    }
+
+    //Add back space
+    private fun clearInputText() {
+        val length = binding.input.length()
+        if (length > 0){
+            binding.input.text = binding.input.text.subSequence(0,length - 1)
+        }
+
     }
 }
