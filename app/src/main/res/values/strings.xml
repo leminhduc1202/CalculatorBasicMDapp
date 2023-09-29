@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Calculator Basic MDapp</string>
+    <string name="app_error">Error</string>
+    <string name="app_bracket_left">(</string>
+    <string name="app_bracket_right">)</string>
+    <string name="app_number_zero">0</string>
+    <string name="app_number_one">1</string>
+    <string name="app_number_two">2</string>
+    <string name="app_number_three">3</string>
+    <string name="app_number_four">4</string>
+    <string name="app_number_five">5</string>
+    <string name="app_number_six">6</string>
+    <string name="app_number_seven">7</string>
+    <string name="app_number_eight">8</string>
+    <string name="app_number_nine">9</string>
+    <string name="app_dot">.</string>
+    <string name="app_plus">+</string>
+    <string name="app_minus">-</string>
+    <string name="app_multiply">×</string>
+    <string name="app_division">÷</string>
+    <string name="app_char_multiply">*</string>
+    <string name="app_char_division">/</string>
+    <string name="app_char_c">C</string>
+    <string name="app_char_delete">⇐</string>
+    <string name="app_equal">=</string>
 </resources>
